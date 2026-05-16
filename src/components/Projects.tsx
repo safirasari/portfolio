@@ -21,21 +21,21 @@ const Projects = () => {
                 src={"/assets/images/amazonImg.png"}
                 alt="amazonImg"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lg:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-titleFont text-textPink text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-cardBg text-sm md:text-base p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon
               website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              <span className="text-textPink">O-auth</span> and then make the
+              purchage using <span className="text-textPink">stripe</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
@@ -46,21 +46,21 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                className="hover:text-textPink duration-300"
+                href="https://github.com/safirasari"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
-                href="https://youtu.be/WzMtRfzkP-Q"
+                className="hover:text-textPink duration-300"
+                href="https://github.com/safirasari"
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://nextamazon.reactbd.com/"
                 target="_blank"
               >
@@ -83,22 +83,22 @@ const Projects = () => {
                 src={"/assets/images/cyberBlog.png"}
                 alt="cyberImg"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-titleFont text-textPink text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-cardBg p-2 md:p-6 rounded-md xl:-mr-16">
               A full functional Cyber Security Blog where you can view the
               latest post and{" "}
-              <span className="text-textGreen">comments on</span> it by passing
+              <span className="text-textPink">comments on</span> it by passing
               your ideas besides you can try to add your own{" "}
-              <span className="text-textGreen">post</span> on it by logging on
+              <span className="text-textPink">post</span> on it by logging on
               the portal.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
@@ -110,21 +110,21 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                className="hover:text-textPink duration-300"
+                href="https://github.com/safirasari"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://youtu.be/49Fx963su1I"
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://www.noormohmmad.com/"
                 target="_blank"
               >
@@ -147,21 +147,21 @@ const Projects = () => {
                 src={"/assets/images/noorShop.png"}
                 alt="noorShop"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+              <p className="font-titleFont text-textPink text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
+            <p className="text-sm md:text-base bg-cardBg  p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon
               website. View your products, Add your account with{" "}
-              <span className="text-textGreen">O-auth</span> and then make the
-              purchage using <span className="text-textGreen">stripe</span>.
+              <span className="text-textPink">O-auth</span> and then make the
+              purchage using <span className="text-textPink">stripe</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Nextjs</li>
@@ -172,21 +172,21 @@ const Projects = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <a
-                className="hover:text-textGreen duration-300"
-                href="https://github.com/noorjsdivs"
+                className="hover:text-textPink duration-300"
+                href="https://github.com/safirasari"
                 target="_blank"
               >
                 <TbBrandGithub />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://youtu.be/fi0nQc25xAw"
                 target="_blank"
               >
                 <AiOutlineYoutube />
               </a>
               <a
-                className="hover:text-textGreen duration-300"
+                className="hover:text-textPink duration-300"
                 href="https://noorshop.netlify.app/"
                 target="_blank"
               >

@@ -9,11 +9,12 @@
   --radius-sm: calc(var(--radius) - 4px);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-bodyColor: #0a192f;
-  --color-textGreen: #64ffda;
-  --color-textLight: #ccd6f6;
-  --color-textDark: #8892b0;
-  --color-hoverColor: rgba(100, 255, 218, 0.1);
+  --color-bodyColor: #ffffff;
+  --color-cardBg: #e5e7eb;
+  --color-textPink: #f472b6;
+  --color-textLight: #111111;
+  --color-textDark: #525252;
+  --color-hoverColor: rgba(249, 168, 212, 0.12);
 
   --background-image-footer-bg: url("/background/footer-bg.jpg");
 }

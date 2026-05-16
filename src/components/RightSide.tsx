@@ -1,8 +1,8 @@
 const RightSide = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-textLight">
-      <a href="mailto:noor.jsdivs@gmail.com">
-        <p className="text-sm rotate-90 w-72 tracking-widest text-textGreen">
+      <a href="mailto:safira2517@gmail.com">
+        <p className="text-sm rotate-90 w-72 tracking-widest text-textPink">
           reactbd@proton.me
         </p>
       </a>

@@ -59,9 +59,9 @@ const Experience = () => {
             onClick={handleReactbd}
             className={`${
               workReactbd
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPink text-textPink"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-cardBg py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             RactBD
           </li>
@@ -69,9 +69,9 @@ const Experience = () => {
             onClick={handleGoogle}
             className={`${
               workGoogle
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPink text-textPink"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-cardBg py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Google
           </li>
@@ -79,9 +79,9 @@ const Experience = () => {
             onClick={handleApple}
             className={`${
               workApple
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPink text-textPink"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-cardBg py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Apple
           </li>
@@ -89,9 +89,9 @@ const Experience = () => {
             onClick={handleSplash}
             className={`${
               workSplash
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPink text-textPink"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-cardBg py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Splash
           </li>
@@ -99,9 +99,9 @@ const Experience = () => {
             onClick={handleAmazon}
             className={`${
               workAmazon
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPink text-textPink"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-cardBg py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Amazon
           </li>

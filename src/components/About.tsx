@@ -18,14 +18,14 @@ const About = () => {
           className="w-full lg:w-2/3 text-base text-textDark font-bodyFont flex flex-col gap-6"
         >
           <p>
-            Hello! My name is Noor Mohammad, and I’m passionate about crafting
+            Hello! My name is Safira Sari, and I’m passionate about crafting
             exceptional web experiences. My journey in web development began in
             2012 when I started experimenting with custom Tumblr themes, where
             building a custom reblog button sparked my love for HTML and CSS.
           </p>
           <p>
             Today, I’ve had the privilege of working at an{" "}
-            <span className="text-textGreen">
+            <span className="text-textPink">
               advertising agency, a startup, a major corporation, and a
               student-led design studio.
             </span>{" "}
@@ -58,9 +58,9 @@ const About = () => {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
-                className="flex items-center gap-2 hover:text-textGreen transition-colors duration-300"
+                className="flex items-center gap-2 hover:text-textPink transition-colors duration-300"
               >
-                <span className="text-textGreen">
+                <span className="text-textPink">
                   <AiFillThunderbolt />
                 </span>
                 {tech}
@@ -81,9 +81,9 @@ const About = () => {
               src={"/assets/images/profile.png"}
               alt="Profile Image"
             />
-            <div className="absolute inset-0 bg-textGreen/20 rounded-lg transition-opacity duration-300 group-hover:opacity-0"></div>
+            <div className="absolute inset-0 bg-textPink/20 rounded-lg transition-opacity duration-300 group-hover:opacity-0"></div>
           </div>
-          <div className="hidden lg:block absolute inset-0 border-2 border-textGreen rounded-lg -translate-x-3 -translate-y-3 group-hover:-translate-x-4 group-hover:-translate-y-4 transition-transform duration-300"></div>
+          <div className="hidden lg:block absolute inset-0 border-2 border-textPink rounded-lg -translate-x-3 -translate-y-3 group-hover:-translate-x-4 group-hover:-translate-y-4 transition-transform duration-300"></div>
         </motion.div>
       </div>
     </section>

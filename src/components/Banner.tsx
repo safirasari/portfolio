@@ -6,9 +6,9 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
-        className="text-lg font-titleFont tracking-wide text-textGreen"
+        className="text-lg font-titleFont tracking-wide text-textPink"
       >
-        Hi, my name is
+        Hi! My name is
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -16,7 +16,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lg:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Noor Mohammad.
+        Safira Sari.
         <span className="text-textDark mt-2 lg:mt-4">
           I build things for the web.
         </span>
@@ -33,18 +33,18 @@ const Banner = () => {
         its ecosystem.{" "}
         <a href="https://www.noormohammad.live/" target="_blank">
           {" "}
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
+          <span className="text-textPink inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
+            <span className="absolute w-full h-[1px] bg-textPink left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
         </a>
       </motion.p>
-      <a href="https://github.com/noorjsdivs" target="_blank">
+      <a href="https://github.com/safirasari" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.9 }}
-          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+          className="w-52 h-14 text-sm font-titleFont border border-textPink rounded-md text-textPink tracking-wide hover:bg-hoverColor duration-300"
         >
           Check out my project!
         </motion.button>

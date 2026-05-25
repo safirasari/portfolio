@@ -31,13 +31,6 @@ const Banner = () => {
         strong foundation in front-end & back-end development and am skilled in
         creating user-friendly and responsive web applications using React and
         its ecosystem.{" "}
-        <a href="https://www.noormohammad.live/" target="_blank">
-          {" "}
-          <span className="text-textPink inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            Learn more
-            <span className="absolute w-full h-[1px] bg-textPink left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
-        </a>
       </motion.p>
       <a href="https://github.com/safirasari" target="_blank">
         <motion.button
@@ -46,7 +39,7 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.9 }}
           className="w-52 h-14 text-sm font-titleFont border border-textPink rounded-md text-textPink tracking-wide hover:bg-hoverColor duration-300"
         >
-          Check out my project!
+          Check out my projects!
         </motion.button>
       </a>
     </section>

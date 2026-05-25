@@ -300,7 +300,7 @@ const Navbar = () => {
                   className="text-sm w-72 tracking-widest text-textPink text-center mt-4"
                   href="mailto:safira2517@gmail.com"
                 >
-                  <p>reactbd@proton.me</p>
+                  <p>safira2517@gmail.com</p>
                 </motion.a>
               </motion.div>
             </motion.div>

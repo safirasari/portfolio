@@ -18,7 +18,7 @@ const Banner = () => {
       >
         Safira Sari.
         <span className="text-textDark mt-2 lg:mt-4">
-          I build things for the web.
+          Nice to meet you!
         </span>
       </motion.h1>
       <motion.p
@@ -27,10 +27,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 4+ years of experience in React. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
+        As a Full Stack Developer, I've worked on both frontend and backend systems, 
+        namely TypeScript, React, Next.js, PostgreSQL, and Python. 
+        With a love for solving problems, I enjoy implementing new features and fixing bugs.{" "}
       </motion.p>
       <a href="https://github.com/safirasari" target="_blank">
         <motion.button

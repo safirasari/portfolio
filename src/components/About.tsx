@@ -12,7 +12,7 @@ const skillGroups = [
   },
   {
     category: "Dev Tools",
-    skills: ["GitHub", "n8n"],
+    skills: ["GitHub", "n8n", "Figma"],
   },
 ];
 
@@ -32,10 +32,10 @@ const About = () => {
           className="w-full lg:w-2/3 text-base text-textDark font-bodyFont flex flex-col gap-6"
         >
           <p>
-            Hello! My name is Safira Sari, and I’m passionate about crafting
-            exceptional web experiences. My journey in web development began in
-            2012 when I started experimenting with custom Tumblr themes, where
-            building a custom reblog button sparked my love for HTML and CSS.
+            Hello! I'm Safira Sari, and I’m passionate about continuously 
+            learning about tech and crafting high-quality products.
+
+            
           </p>
           <p>
             Today, I’ve had the privilege of working at an{" "}
@@ -43,15 +43,26 @@ const About = () => {
               advertising agency, a startup, a major corporation, and a
               student-led design studio.
             </span>{" "}
-            My diverse experiences have honed my skills in creating
-            user-friendly, scalable, and visually appealing applications. I
-            thrive on solving complex problems and bringing ideas to life on the
-            internet.
+            Testing
+            Code reviews
+
+
+            add stats of bugs fixes
+
+            love improving processes
           </p>
           <p>
-            I’m constantly learning and adapting to new technologies to stay at
-            the forefront of web development. My focus is on building seamless,
-            performant, and accessible digital solutions.
+            Outside of coding, video games have always been one of my favorite hobbies. 
+            I play MOBAs and strategy games such as Teamfight Tactics (TFT), in which I've achieved the 
+            highest tier - Challenger - in multiple sets, with my highest peak being rank 77 in North America.
+            {/* <br /> */}
+            I also love attending live concerts of musical artists I follow (my sisters call me a "Ticketmaster Winner" 
+            for consistently securing tickets during competitive ticket sales).
+            Another interest of mine is shopping while exploring fashion trends as I refine my own personal style. 
+            Although it's less of a hobby, trying out new food and recipes is super fun for me!
+          </p>
+          <p>
+            My passion for learning pushes me to continuously aim for growth and improvement.
           </p>
           {/* <p className="font-titleFont font-semibold text-textLight">
             Here are some technologies I’ve been working with recently:
@@ -120,9 +131,9 @@ const About = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="w-full lg:w-1/3 h-80 relative group"
+          className="w-full lg:w-1/3 h-96 relative group"
         >
-          <div className="absolute w-full h-80 rounded-lg overflow-hidden shadow-navbarShadow">
+          <div className="absolute w-full h-96 rounded-lg overflow-hidden shadow-navbarShadow">
             <img
               className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
               src={"/assets/images/profile.png"}

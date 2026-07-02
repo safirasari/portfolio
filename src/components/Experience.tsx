@@ -52,7 +52,7 @@ const Experience = () => {
   };
   return (
     <section id="experience" className="py-10 lg:py-24">
-      <SectionTitle title="Where I have Worked" titleNo="02" />
+      <SectionTitle title="My Journey" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li

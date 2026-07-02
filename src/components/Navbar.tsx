@@ -106,7 +106,7 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
                 <span className="text-textPink">03.</span>
-                Project
+                Projects
               </motion.li>
             </a>
             <a
@@ -236,7 +236,7 @@ const Navbar = () => {
                         }}
                       >
                         <span className="text-textPink">03.</span>
-                        Project
+                        Projects
                       </motion.li>
                     </a>
                     <a

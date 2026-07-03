@@ -1,7 +1,5 @@
-import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
-import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Projects = () => {
   return (
@@ -12,14 +10,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://github.com/safirasari"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/amazonImg.png"}
-                alt="amazonImg"
+                src={"/assets/images/projectN8N.png"}
+                alt="Lien Waiver Processor"
               />
               <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -27,22 +25,24 @@ const Projects = () => {
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lg:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textPink text-sm tracking-wide">
-                Featured Project
+                AI-Powered Workflow
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Lien Waiver Processor</h3>
             </div>
             <p className="bg-cardBg text-sm md:text-base p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textPink">O-auth</span> and then make the
-              purchage using <span className="text-textPink">stripe</span>.
+              An AI-powered n8n pipeline that leverages {" "}
+              <span className="text-textPink">OpenAI </span>
+              to parse Outlook emails and integrates QuickBooks APIs to {" "}
+              <span className="text-textPink">automate check audits</span>, evaluate signing eligibility, and 
+              flag unpaid invoices with interactive Slack webhook notifications.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>PostgreSQL</li>
+              <li>n8n</li>
+              <li>OpenAI</li>
+              <li>QuickBooks</li>
+              <li>Slack</li>
+              <li>Outlook</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -51,20 +51,6 @@ const Projects = () => {
                 target="_blank"
               >
                 <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textPink duration-300"
-                href="https://github.com/safirasari"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textPink duration-300"
-                href="https://nextamazon.reactbd.com/"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
               </a>
             </div>
           </div>
@@ -81,7 +67,7 @@ const Projects = () => {
               <img
                 className="w-full h-full object-contain"
                 src={"/assets/images/projectGTG.png"}
-                alt="cyberImg"
+                alt="Group to Go (GTG)"
               />
               <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -112,17 +98,10 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textPink duration-300"
-                href="https://github.com/safirasari"
+                href="https://github.com/safirasari/group-to-go"
                 target="_blank"
               >
                 <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textPink duration-300"
-                href="https://youtu.be/49Fx963su1I"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
               </a>
             </div>
           </div>
@@ -132,14 +111,14 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noorshop.netlify.app/"
+            href="https://github.com/safirasari/facial-expression-recognition"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/noorShop.png"}
-                alt="noorShop"
+                src={"/assets/images/projectFACIAL.jpg"}
+                alt="Facial Expression Recognition"
               />
               <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -147,44 +126,31 @@ const Projects = () => {
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textPink text-sm tracking-wide">
-                Featured Project
+                AI Model
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Facial Expression Recognition</h3>
             </div>
             <p className="text-sm md:text-base bg-cardBg  p-2 md:p-6 rounded-md">
-              An Amazon clone website for visualizing personalized Amazon
-              website. View your products, Add your account with{" "}
-              <span className="text-textPink">O-auth</span> and then make the
-              purchage using <span className="text-textPink">stripe</span>.
+              An AI model using Python and PyTorch to {" "}
+              <span className="text-textPink">classify facial expressions in images </span> by implementing and tuning a
+              Convolutional Neural Network (CNN) with Skorch. Evaluated model performance using Scikit-learn and {" "}
+              <span className="text-textPink">visualized data metrics such as accuracy, precision, recall, and F1-score</span> with
+              <span className="text-textPink"> Matplotlib</span>.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Stripe</li>
-              <li>Vercel Deployment</li>
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>Scikit-learn</li>
+              <li>Matplotlib</li>
+              <li>Skorch</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textPink duration-300"
-                href="https://github.com/safirasari"
+                href="https://github.com/safirasari/facial-expression-recognition"
                 target="_blank"
               >
                 <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textPink duration-300"
-                href="https://youtu.be/fi0nQc25xAw"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textPink duration-300"
-                href="https://noorshop.netlify.app/"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
               </a>
             </div>
           </div>

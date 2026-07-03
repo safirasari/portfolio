@@ -74,13 +74,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://noormohammad.reactbd.com/"
+            href="https://github.com/safirasari/group-to-go"
             target="_blank"
           >
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/cyberBlog.png"}
+                src={"/assets/images/projectGTG.png"}
                 alt="cyberImg"
               />
               <div className="absolute w-full h-full bg-textPink/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -89,24 +89,25 @@ const Projects = () => {
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
             <div>
               <p className="font-titleFont text-textPink text-sm tracking-wide">
-                Featured Project
+                Event Planner
               </p>
-              <h3 className="text-2xl font-bold">Cyber Security Blog</h3>
+              <h3 className="text-2xl font-bold">Group to Go (GTG)</h3>
             </div>
             <p className="text-sm md:text-base bg-cardBg p-2 md:p-6 rounded-md xl:-mr-16">
-              A full functional Cyber Security Blog where you can view the
-              latest post and{" "}
-              <span className="text-textPink">comments on</span> it by passing
-              your ideas besides you can try to add your own{" "}
-              <span className="text-textPink">post</span> on it by logging on
-              the portal.
+              All-in-one platform for {" "}
+              <span className="text-textPink">planning hangouts and events</span> within your social circle.
+              Group to Go, also known as GTG, is an event planner that includes many features, such as {" "}
+              <span className="text-textPink">user registration, group management, scheduling, expense tracking</span> and more, within a single website!
+              Figma was used to create {" "}
+              <span className="text-textPink">wireframes & prototypes.</span>
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>Nextjs</li>
-              <li>Typescript</li>
-              <li>Next-auth</li>
-              <li>Sanity</li>
-              <li>React Hook Form</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Firebase</li>
+              <li>JavaScript</li>
+              <li>Figma</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -122,13 +123,6 @@ const Projects = () => {
                 target="_blank"
               >
                 <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textPink duration-300"
-                href="https://www.noormohmmad.com/"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
               </a>
             </div>
           </div>

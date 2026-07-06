@@ -5,7 +5,6 @@ import LeftSide from "./components/LeftSide";
 import Navbar from "./components/Navbar";
 import { motion } from "framer-motion";
 import Projects from "./components/Projects";
-// import Archive from "./components/Archive";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import RightSide from "./components/RightSide";
@@ -29,7 +28,6 @@ function App() {
           <About />
           <Experience />
           <Projects />
-          {/* <Archive /> */}
           <Contact />
           <Footer />
         </Container>

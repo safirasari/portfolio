@@ -9,7 +9,7 @@ const Contact = () => {
       </p>
       <h2 className="font-titleFont text-5xl font-semibold">Let's Connect!</h2>
       <p className="max-w-[600px] text-center text-textDark">
-        Feel free to reach out to me for any questions, or opportunities (or even just to say hi). Let's get to know each other!
+        Feel free to reach out to me for any questions, or opportunities. Let's get to know each other!
       </p>
 
       <a href="mailto:safira2517@gmail.com">

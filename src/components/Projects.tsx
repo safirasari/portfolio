@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const Projects = () => {
   return (
     <section id="project" className="lg:px-20 py-24">
-      <SectionTitle title="Some Projects I Worked On" titleNo="03" />
+      <SectionTitle title="Some Projects I've Worked On" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">

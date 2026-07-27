@@ -40,7 +40,7 @@ const Navbar = () => {
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor">
       <Container className="h-full py-1 font-titleFont flex items-center justify-between">
         {/* ============ Logo Start here ============ */}
-        <a href="/">
+        <a href="/portfolio/">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

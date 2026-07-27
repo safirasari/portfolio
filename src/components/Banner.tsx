@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import { TbBrandGithub } from "react-icons/tb";
+import { SlSocialLinkedin } from "react-icons/sl";
+
 const Banner = () => {
   return (
     <section id="home" className="py-10 md:py-24 flex flex-col gap-4 lg:gap-8">
@@ -31,17 +34,32 @@ const Banner = () => {
         namely TypeScript, React, Next.js, PostgreSQL, and Python. 
         With a love for solving problems, I enjoy implementing new features and fixing bugs.{" "}
       </motion.p>
-      
-      <a href="/assets/Safira_Sari_Resume.pdf" target="_blank">
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.6, ease: "easeIn" }}
-          className="w-52 h-14 text-sm font-titleFont border border-textPink rounded-md text-textPink tracking-wide hover:bg-hoverColor duration-300"
-        >
-          Check out my Resume!
-        </motion.button>
-      </a>
+
+      <div className="flex items-center gap-4">
+        <a href="/portfolio/assets/Safira_Sari_Resume.pdf" target="_blank">
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, ease: "easeIn" }}
+            className="w-52 h-14 text-sm font-titleFont border border-textPink rounded-md text-textPink tracking-wide hover:bg-hoverColor duration-300"
+          >
+            Check out my resume!
+          </motion.button>
+        </a>
+
+        <a href="https://github.com/safirasari" target="_blank">
+          <span className="w-12 h-12 text-xl text-textPink bg-hoverColor rounded-full inline-flex items-center justify-center hover:-translate-y-2 transition-all duration-300 cursor-pointer">
+            <TbBrandGithub />
+          </span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/safira-sari/" target="_blank">
+          <span className="w-12 h-12 text-xl text-textPink bg-hoverColor rounded-full inline-flex items-center justify-center hover:-translate-y-2 transition-all duration-300 cursor-pointer">
+            <SlSocialLinkedin />
+          </span>
+        </a>
+      </div>
+
     </section>
   );
 };

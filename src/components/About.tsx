@@ -114,8 +114,6 @@ const About = () => {
 
                         text-sm text-gray-700 font-medium
 
-                        hover:text-textPink
-                        hover:border-textPink
                         hover:shadow-[0_8px_25px_rgba(236,72,153,0.12)]
 
                         transition-all duration-300

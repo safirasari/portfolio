@@ -59,7 +59,7 @@ const Experience = () => {
               >
                 {/* Card */}
                 <div
-                  className={`group relative w-[45%] bg-cardBg/40 p-6 backdrop-blur-md border border-cardBg/20 transition-all duration-300 hover:border-textPink hover:shadow-[0_0_0_1px_rgba(236,72,153,0.5)] ${
+                  className={`group relative w-[45%] bg-cardBg/40 p-6 backdrop-blur-md border border-cardBg/20 transition-all duration-300 hover:border-cardBg/20 hover:shadow-lg ${
                     isLeft ? "text-right" : "text-left"
                   }`}
                 >
@@ -100,8 +100,6 @@ const Experience = () => {
                     {item.date}
                   </div>
 
-                  {/* hover glow */}
-                  <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 bg-textPink/5 transition" />
                 </div>
 
                 {/* center dot */}

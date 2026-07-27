@@ -144,7 +144,7 @@ const About = () => {
           <div className="absolute w-full h-96 rounded-lg overflow-hidden shadow-navbarShadow">
             <img
               className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
-              src={"/assets/images/profile.png"}
+              src={"/portfolio/assets/images/profile.png"}
               alt="Profile Image"
             />
           </div>

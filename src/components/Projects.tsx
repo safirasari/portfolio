@@ -16,7 +16,7 @@ const Projects = () => {
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/projectN8N.png"}
+                src={"/portfolio/assets/images/projectN8N.png"}
                 alt="Lien Waiver Processor"
               />
             </div>
@@ -65,7 +65,7 @@ const Projects = () => {
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/projectGTG.png"}
+                src={"/portfolio/assets/images/projectGTG.png"}
                 alt="Group to Go (GTG)"
               />
             </div>
@@ -115,7 +115,7 @@ const Projects = () => {
             <div>
               <img
                 className="w-full h-full object-contain"
-                src={"/assets/images/projectFACIAL.jpg"}
+                src={"/portfolio/assets/images/projectFACIAL.jpg"}
                 alt="Facial Expression Recognition"
               />
             </div>

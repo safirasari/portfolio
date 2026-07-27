@@ -28,7 +28,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Lien Waiver Processor</h3>
             </div>
-            <p className="bg-cardBg text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="bg-cardBg/60 backdrop-blur-md border border-cardBg/20 text-textDark text-sm md:text-base p-2 md:p-6 rounded-md">
               An AI-powered n8n pipeline that leverages {" "}
               <span className="text-textPink">OpenAI </span>
               to parse Outlook emails and integrates QuickBooks APIs to {" "}
@@ -77,7 +77,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Group to Go (GTG)</h3>
             </div>
-            <p className="text-sm md:text-base bg-cardBg p-2 md:p-6 rounded-md xl:-mr-16">
+            <p className="bg-cardBg/60 backdrop-blur-md border border-cardBg/20 text-textDark text-sm md:text-base p-2 md:p-6 rounded-md">
               All-in-one platform for {" "}
               <span className="text-textPink">planning hangouts and events</span> within your social circle.
               Group to Go, also known as GTG, is an event planner that includes many features, such as {" "}
@@ -127,7 +127,7 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Facial Expression Recognition</h3>
             </div>
-            <p className="text-sm md:text-base bg-cardBg  p-2 md:p-6 rounded-md">
+            <p className="bg-cardBg/60 backdrop-blur-md border border-cardBg/20 text-textDark text-sm md:text-base p-2 md:p-6 rounded-md">
               An AI model using Python and PyTorch to {" "}
               <span className="text-textPink">classify facial expressions in images </span> by implementing and tuning a
               Convolutional Neural Network (CNN) with Skorch. Evaluated model performance using Scikit-learn and {" "}

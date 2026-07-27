@@ -58,12 +58,11 @@ const About = () => {
             </span>{" "}
             video games have always been one of my favorite hobbies. 
             I play MOBAs and strategy games such as Teamfight Tactics (TFT), in which I've achieved the 
-            highest tier - Challenger - in multiple sets, with my highest peak being rank 77 in North America.
-            {/* <br /> */}
-            I also love attending live concerts of musical artists I follow (my sisters call me a "Ticketmaster Winner" 
-            for consistently securing tickets during competitive ticket sales).
+            highest tier - Challenger - in multiple sets, with my highest peak being rank 77 in North America. I also 
+            love attending live concerts of musical artists I follow (my sisters call me a "Ticketmaster Winner" 
+            for consistently securing tickets during competitive sales).
             Another interest of mine is shopping while exploring fashion trends as I refine my own personal style. 
-            Although it's less of a hobby, trying out new food and recipes is super fun for me!
+            Although it's less of a hobby, trying out new food and recipes is super fun!
           </p>
 
           <p>
@@ -79,62 +78,59 @@ const About = () => {
             Here's a summary of some of the technologies I've used—though I'm always open to broadening my tech stack!
           </p>
 
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-[750px]">
+            {skillGroups.map((group, groupIndex) => (
+              <motion.div
+                key={group.category}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.4,
+                  delay: groupIndex * 0.12,
+                }}
+                className="space-y-5"
+              >
+                <h3 className="text-sm uppercase tracking-[0.25em] font-semibold text-textPink">
+                  {group.category}
+                </h3>
 
-{/* vertical stack */}
-<div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-[750px]">
-  {skillGroups.map((group, groupIndex) => (
-    <motion.div
-      key={group.category}
-      initial={{ opacity: 0, y: 12 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 0.4,
-        delay: groupIndex * 0.12,
-      }}
-      className="space-y-5"
-    >
-      <h3 className="text-sm uppercase tracking-[0.25em] font-semibold text-textPink">
-        {group.category}
-      </h3>
+                <div className="flex flex-col gap-3">
+                  {group.skills.map((skill) => (
+                    <motion.div
+                      key={skill}
+                      whileHover={{ x: 5 }}
+                      transition={{ duration: 0.2 }}
+                      className="
+                        relative
+                        px-4 py-2.5
+                        rounded-lg
 
-      <div className="flex flex-col gap-3">
-        {group.skills.map((skill) => (
-          <motion.div
-            key={skill}
-            whileHover={{ x: 5 }}
-            transition={{ duration: 0.2 }}
-            className="
-              relative
-              px-4 py-2.5
-              rounded-lg
+                        bg-white/80
+                        backdrop-blur-sm
 
-              bg-white/80
-              backdrop-blur-sm
+                        border border-gray-200
+                        shadow-[0_3px_15px_rgba(0,0,0,0.04)]
 
-              border border-gray-200
-              shadow-[0_3px_15px_rgba(0,0,0,0.04)]
+                        text-sm text-gray-700 font-medium
 
-              text-sm text-gray-700 font-medium
+                        hover:text-textPink
+                        hover:border-textPink
+                        hover:shadow-[0_8px_25px_rgba(236,72,153,0.12)]
 
-              hover:text-textPink
-              hover:border-textPink
-              hover:shadow-[0_8px_25px_rgba(236,72,153,0.12)]
+                        transition-all duration-300
+                        cursor-default
+                      "
+                    >
+                      <span className="absolute left-0 top-0 h-full w-[2px] bg-textPink scale-y-0 group-hover:scale-y-100 transition-transform duration-300" />
 
-              transition-all duration-300
-              cursor-default
-            "
-          >
-            <span className="absolute left-0 top-0 h-full w-[2px] bg-textPink scale-y-0 group-hover:scale-y-100 transition-transform duration-300" />
-
-            {skill}
-          </motion.div>
-        ))}
-      </div>
-    </motion.div>
-  ))}
-</div>
-
+                      {skill}
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
 
         </motion.div>
 

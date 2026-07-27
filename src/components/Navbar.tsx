@@ -19,7 +19,6 @@ const Navbar = () => {
     elem?.scrollIntoView({
       behavior: "smooth",
     });
-    // Update the class name of the clicked link
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => {
       link.classList.remove("active");
@@ -77,7 +76,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.1 }}
               >
-                <span className="text-textPink">01.</span>
+                <span className="text-textPink mr-1">01.</span>
                 About
               </motion.li>
             </a>
@@ -91,7 +90,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.2 }}
               >
-                <span className="text-textPink">02.</span>
+                <span className="text-textPink mr-1">02.</span>
                 Experience
               </motion.li>
             </a>
@@ -105,7 +104,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
-                <span className="text-textPink">03.</span>
+                <span className="text-textPink mr-1">03.</span>
                 Projects
               </motion.li>
             </a>
@@ -119,7 +118,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.4 }}
               >
-                <span className="text-textPink">04.</span>
+                <span className="text-textPink mr-1">04.</span>
                 Contact
               </motion.li>
             </a>
